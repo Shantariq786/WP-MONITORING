@@ -1,0 +1,16 @@
+PODS:
+  - SevenSwitch (2.1.0)
+
+DEPENDENCIES:
+  - SevenSwitch
+
+SPEC REPOS:
+  trunk:
+    - SevenSwitch
+
+SPEC CHECKSUMS:
+  SevenSwitch: 5543327829b7bec5b29b73bad5f3cc3f92c1736d
+
+PODFILE CHECKSUM: 429a73ed6a4065856e23dd032e9142b750576aae
+
+COCOAPODS: 1.11.3

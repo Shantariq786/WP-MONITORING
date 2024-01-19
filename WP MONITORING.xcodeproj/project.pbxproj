@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378497BE2907D91900AD3AC0 /* SecuirtyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378497BD2907D91900AD3AC0 /* SecuirtyViewController.swift */; };
+		37E321F22907DE920046FABE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E321F12907DE920046FABE /* SettingsViewController.swift */; };
+		37E321F42907DF6D0046FABE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E321F32907DF6D0046FABE /* BaseViewController.swift */; };
+		37E321FA2907DF860046FABE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E321F72907DF860046FABE /* Utilities.swift */; };
+		37E321FB2907DF860046FABE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E321F82907DF860046FABE /* Enums.swift */; };
+		37E321FE2907E18E0046FABE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E321FD2907E18E0046FABE /* WelcomeViewController.swift */; };
+		37EF01DF2906D6750009D1CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF01DE2906D6750009D1CF /* AppDelegate.swift */; };
+		37EF01E12906D6750009D1CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF01E02906D6750009D1CF /* SceneDelegate.swift */; };
+		37EF01E62906D6750009D1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EF01E42906D6750009D1CF /* Main.storyboard */; };
+		37EF01E82906D67C0009D1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EF01E72906D67C0009D1CF /* Assets.xcassets */; };
+		37EF01EB2906D67C0009D1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EF01E92906D67C0009D1CF /* LaunchScreen.storyboard */; };
+		37EF01F62906DA2B0009D1CF /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF01F52906DA2B0009D1CF /* OverviewViewController.swift */; };
+		37EF01FF2906DAD80009D1CF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF01FE2906DAD80009D1CF /* UIView+Extension.swift */; };
+		5A0A160B04183A181425A560 /* Pods_WP_MONITORING.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53641BE899643D24F8D8F31 /* Pods_WP_MONITORING.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		378497BD2907D91900AD3AC0 /* SecuirtyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuirtyViewController.swift; sourceTree = "<group>"; };
+		37E321F12907DE920046FABE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		37E321F32907DF6D0046FABE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		37E321F72907DF860046FABE /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		37E321F82907DF860046FABE /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		37E321FD2907E18E0046FABE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		37EF01DB2906D6750009D1CF /* WP MONITORING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WP MONITORING.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EF01DE2906D6750009D1CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37EF01E02906D6750009D1CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		37EF01E52906D6750009D1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37EF01E72906D67C0009D1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EF01EA2906D67C0009D1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37EF01EC2906D67C0009D1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EF01F52906DA2B0009D1CF /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		37EF01FE2906DAD80009D1CF /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		EE61C4D3A192E8F1490B1401 /* Pods-WP MONITORING.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WP MONITORING.debug.xcconfig"; path = "Target Support Files/Pods-WP MONITORING/Pods-WP MONITORING.debug.xcconfig"; sourceTree = "<group>"; };
+		F53641BE899643D24F8D8F31 /* Pods_WP_MONITORING.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WP_MONITORING.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F761697AB5308399814E4586 /* Pods-WP MONITORING.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WP MONITORING.release.xcconfig"; path = "Target Support Files/Pods-WP MONITORING/Pods-WP MONITORING.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EF01D82906D6750009D1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0A160B04183A181425A560 /* Pods_WP_MONITORING.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378497BC2907D90700AD3AC0 /* Secuirty */ = {
+			isa = PBXGroup;
+			children = (
+				378497BD2907D91900AD3AC0 /* SecuirtyViewController.swift */,
+			);
+			path = Secuirty;
+			sourceTree = "<group>";
+		};
+		37E321F02907DE630046FABE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				37E321F12907DE920046FABE /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		37E321F52907DF860046FABE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				37E321F72907DF860046FABE /* Utilities.swift */,
+				37E321F82907DF860046FABE /* Enums.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37E321FC2907E17B0046FABE /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				37E321FD2907E18E0046FABE /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		37EF01D22906D6750009D1CF = {
+			isa = PBXGroup;
+			children = (
+				37EF01DD2906D6750009D1CF /* WP MONITORING */,
+				37EF01DC2906D6750009D1CF /* Products */,
+				B20B63D22A3ECD440E6337AB /* Pods */,
+				991B7E3F4EBA42D96191FB0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37EF01DC2906D6750009D1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EF01DB2906D6750009D1CF /* WP MONITORING.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EF01DD2906D6750009D1CF /* WP MONITORING */ = {
+			isa = PBXGroup;
+			children = (
+				37E321F52907DF860046FABE /* Utilities */,
+				37EF01FD2906DAD10009D1CF /* Extension */,
+				37EF01F22906D68D0009D1CF /* Views */,
+				37EF01F32906D6940009D1CF /* Controller */,
+				37EF01E72906D67C0009D1CF /* Assets.xcassets */,
+				37EF01EC2906D67C0009D1CF /* Info.plist */,
+			);
+			path = "WP MONITORING";
+			sourceTree = "<group>";
+		};
+		37EF01F22906D68D0009D1CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37EF01E92906D67C0009D1CF /* LaunchScreen.storyboard */,
+				37EF01E42906D6750009D1CF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37EF01F32906D6940009D1CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37E321F32907DF6D0046FABE /* BaseViewController.swift */,
+				378497BC2907D90700AD3AC0 /* Secuirty */,
+				37E321F02907DE630046FABE /* Settings */,
+				37EF01F72906DA680009D1CF /* Overview */,
+				37E321FC2907E17B0046FABE /* Welcome */,
+				37EF01F42906D69A0009D1CF /* Delegetes */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37EF01F42906D69A0009D1CF /* Delegetes */ = {
+			isa = PBXGroup;
+			children = (
+				37EF01E02906D6750009D1CF /* SceneDelegate.swift */,
+				37EF01DE2906D6750009D1CF /* AppDelegate.swift */,
+			);
+			path = Delegetes;
+			sourceTree = "<group>";
+		};
+		37EF01F72906DA680009D1CF /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				37EF01F52906DA2B0009D1CF /* OverviewViewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		37EF01FD2906DAD10009D1CF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				37EF01FE2906DAD80009D1CF /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		991B7E3F4EBA42D96191FB0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F53641BE899643D24F8D8F31 /* Pods_WP_MONITORING.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B20B63D22A3ECD440E6337AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE61C4D3A192E8F1490B1401 /* Pods-WP MONITORING.debug.xcconfig */,
+				F761697AB5308399814E4586 /* Pods-WP MONITORING.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EF01DA2906D6750009D1CF /* WP MONITORING */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EF01EF2906D67C0009D1CF /* Build configuration list for PBXNativeTarget "WP MONITORING" */;
+			buildPhases = (
+				1103B65F56A5D131FE67B6D3 /* [CP] Check Pods Manifest.lock */,
+				37EF01D72906D6750009D1CF /* Sources */,
+				37EF01D82906D6750009D1CF /* Frameworks */,
+				37EF01D92906D6750009D1CF /* Resources */,
+				47BD424DD68F156DAA48E80D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WP MONITORING";
+			productName = "WP MONITORING";
+			productReference = 37EF01DB2906D6750009D1CF /* WP MONITORING.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EF01D32906D6750009D1CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					37EF01DA2906D6750009D1CF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 37EF01D62906D6750009D1CF /* Build configuration list for PBXProject "WP MONITORING" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EF01D22906D6750009D1CF;
+			productRefGroup = 37EF01DC2906D6750009D1CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EF01DA2906D6750009D1CF /* WP MONITORING */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EF01D92906D6750009D1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF01EB2906D67C0009D1CF /* LaunchScreen.storyboard in Resources */,
+				37EF01E82906D67C0009D1CF /* Assets.xcassets in Resources */,
+				37EF01E62906D6750009D1CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1103B65F56A5D131FE67B6D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WP MONITORING-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47BD424DD68F156DAA48E80D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WP MONITORING/Pods-WP MONITORING-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WP MONITORING/Pods-WP MONITORING-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WP MONITORING/Pods-WP MONITORING-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EF01D72906D6750009D1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378497BE2907D91900AD3AC0 /* SecuirtyViewController.swift in Sources */,
+				37E321FE2907E18E0046FABE /* WelcomeViewController.swift in Sources */,
+				37E321FB2907DF860046FABE /* Enums.swift in Sources */,
+				37EF01DF2906D6750009D1CF /* AppDelegate.swift in Sources */,
+				37EF01E12906D6750009D1CF /* SceneDelegate.swift in Sources */,
+				37EF01FF2906DAD80009D1CF /* UIView+Extension.swift in Sources */,
+				37EF01F62906DA2B0009D1CF /* OverviewViewController.swift in Sources */,
+				37E321FA2907DF860046FABE /* Utilities.swift in Sources */,
+				37E321F42907DF6D0046FABE /* BaseViewController.swift in Sources */,
+				37E321F22907DE920046FABE /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37EF01E42906D6750009D1CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EF01E52906D6750009D1CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37EF01E92906D67C0009D1CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EF01EA2906D67C0009D1CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37EF01ED2906D67C0009D1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37EF01EE2906D67C0009D1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EF01F02906D67C0009D1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE61C4D3A192E8F1490B1401 /* Pods-WP MONITORING.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WP MONITORING/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WP-MONITORING";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37EF01F12906D67C0009D1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F761697AB5308399814E4586 /* Pods-WP MONITORING.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WP MONITORING/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WP-MONITORING";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EF01D62906D6750009D1CF /* Build configuration list for PBXProject "WP MONITORING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EF01ED2906D67C0009D1CF /* Debug */,
+				37EF01EE2906D67C0009D1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EF01EF2906D67C0009D1CF /* Build configuration list for PBXNativeTarget "WP MONITORING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EF01F02906D67C0009D1CF /* Debug */,
+				37EF01F12906D67C0009D1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EF01D32906D6750009D1CF /* Project object */;
+}
